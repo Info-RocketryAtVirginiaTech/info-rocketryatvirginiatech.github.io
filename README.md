@@ -1,9 +1,10 @@
-# Website-With-Video-Background
+#RocketryAtVirginiaTech Website
 
-Create a Website With Vide Background
+Things to Implement
 
-1. download the project
-2. download video and rename as explore.mp4
-3. link for videos : https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/
-4. install live server extension 
-5. to to index.html file and start with live-server
+Look for Videos that will look Cool
+
+Convert The Current Website to Documents and Texts
+
+Find All Images and Save Them into Folders from Pages
+
