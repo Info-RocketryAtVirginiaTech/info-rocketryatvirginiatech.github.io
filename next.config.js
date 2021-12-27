@@ -1,9 +1,9 @@
-const isProd = process.env.NODE_ENV === "production";
+// This file is not going through babel transformation.
+// So, we write it in vanilla JS
+// (But you could use ES2015 features supported by your Node.js version)
+
+const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-  /**
-   * Tell Next.js where the `public` folder is.
-   * Replace `nextjs-github-pages` with your Github repo project name.
-   */
-  assetPrefix: isProd ? "/nextjs-github-pages/" : "",
-};
+  assetPrefix: !debug ? '/info-rocketryatvirginiatech.github.io/' : '',
+}
