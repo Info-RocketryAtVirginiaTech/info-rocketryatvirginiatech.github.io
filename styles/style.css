@@ -1,3 +1,13 @@
+--
+---
+/* Front matter is necessary for Jekyll */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Write your styles below this line. */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 /* 
 .video{
@@ -132,3 +142,7 @@
   font-size: 1.25em;
   margin-top: 0.25em;
 }
+
+/* Write your styles above this line. */
+
+@tailwind utilities;
