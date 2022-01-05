@@ -795,10 +795,27 @@ nav{
   z-index: 1;
 }
 
+body{
+  background: black;
+}
+
 .rocket1 {
-  background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url('../assets/RocketAsset1.png');
+  background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.7) 25%, rgba(255,255,255,0) 50%, rgba(0, 0, 0, 0.7) 75%, rgba(0,0,0,1) 100%), url('../assets/RocketAsset1.png');
   width: 100%;
-  padding-bottom: 33%;
+  background-size: cover;
+  color: white;
+}
+
+.rocket2 {
+  background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.7) 25%,rgba(255,255,255,0) 50%, rgba(0, 0, 0, 0.7) 75%, rgba(0,0,0,1) 100%), url('../assets/RocketAsset2.png');
+  width: 100%;
+  background-size: cover;
+  color: white;
+}
+
+.rocket3{
+  background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.7) 25%,rgba(255,255,255,0) 50%, rgba(0, 0, 0, 0.7) 75%, rgba(0,0,0,1) 100%), url('../assets/RocketAsset3.png');
+  width: 100%;
   background-size: cover;
   color: white;
 }
@@ -806,15 +823,29 @@ nav{
 h1 {
   display: block;
   font-size: 4vw;
+  margin-top: 0.5vw;
   margin-left: 4vw;
   margin-right: 4vw;
 }
 
 p {
   display: block;
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin-left: 4vw;
-  margin-right: 4vw;
+  margin-right: 50%;
+  margin-bottom: 25%;
+}
+
+.mybutton{
+  color:white;
+  padding: 0px;
+  border-color: white;
+  border-width: 0.25vw;
+  font-size: 2.5vw;
+  margin-left: 80%;
+  margin-bottom: 3%;
+  width: 15%;
+  text-align:center;
 }
 
 /* Write your styles above this line. */
