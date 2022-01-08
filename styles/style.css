@@ -20,7 +20,7 @@
 
   .rocket1 {
     
-    background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url('../assets/RocketAsset1.png');
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,0.8) 100%), url('../assets/RocketAsset1.png');
     width: 100%;
     
     background-size: cover;
@@ -30,7 +30,7 @@
 
   .rocket2 {
     
-    background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url('../assets/RocketAsset2.png');
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%,rgba(255,255,255,0) 50%, rgba(0,0,0,0.8) 100%), url('../assets/RocketAsset2.png');
     width: 100%;
     
     background-size: cover;
@@ -40,7 +40,7 @@
 
   .rocket3{
     
-    background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url('../assets/RocketAsset3.png');
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%,rgba(255,255,255,0) 50%, rgba(0,0,0,0.8) 100%), url('../assets/RocketAsset3.png');
     width: 100%;
     
     background-size: cover;
@@ -64,7 +64,7 @@
     margin-bottom: 25%;
     font-family: "Nirmala UI";
     font-weight: 200;
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 50%);
+
   }
 
   .mybutton{
