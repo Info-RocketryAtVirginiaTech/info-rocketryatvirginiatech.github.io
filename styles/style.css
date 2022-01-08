@@ -11,9 +11,13 @@
         z-index: 1;
     }
 
+    @font-face {
+      font-family: 'BahnschriftLocal'; /*a name to be used later*/
+      src: url('../font/BAHNSCHRIFT.TTF'); /*URL to font*/
+  }
     body{
       background: black;
-      font-family: "Bahnschrift";
+      font-family: "BahnschriftLocal";
       font-weight: lighter;
       font-stretch: semi-condensed;
     }
