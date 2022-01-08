@@ -796,25 +796,25 @@ nav{
 }
 
 body{
-  background: black;
+  background: rgba(0,0,0,0.9);
 }
 
 .rocket1 {
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,0.8) 100%), url('../assets/RocketAsset1.png');
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,0) 80%, rgba(0,0,0,0.6) 100%), url('../assets/RocketAsset1.png');
   width: 100%;
   background-size: cover;
   color: white;
 }
 
 .rocket2 {
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%,rgba(255,255,255,0) 50%, rgba(0,0,0,0.8) 100%), url('../assets/RocketAsset2.png');
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,0) 80%, rgba(0,0,0,0.6) 100%), url('../assets/RocketAsset2.png');
   width: 100%;
   background-size: cover;
   color: white;
 }
 
 .rocket3{
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%,rgba(255,255,255,0) 50%, rgba(0,0,0,0.8) 100%), url('../assets/RocketAsset3.png');
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,0) 80%, rgba(0,0,0,0.6) 100%) , url('../assets/RocketAsset3.png');
   width: 100%;
   background-size: cover;
   color: white;
